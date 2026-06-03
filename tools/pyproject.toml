@@ -1,0 +1,21 @@
+[project]
+name = "import-buddy"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = ["requests"]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-mock", "responses"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.pyright]
+reportExplicitAny = "none"
+reportAny = "none"
+reportUnknownVariableType = "none"
+reportUnknownMemberType = "none"
