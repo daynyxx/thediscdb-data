@@ -1,0 +1,14 @@
+{
+  "ImportBuddy": {
+    "DataRepositoryPath": "/path/to/your/data"
+  },
+  "TheMovieDb": {
+    "ApiKey": "your_tmdb_api_key"
+  },
+  "MakeMkv": {
+    "Path": "/usr/bin/makemkv",
+    "Drives": [
+      { "Index": 0, "Letter": "sr0", "Name": "Optical Drive" }
+    ]
+  }
+}
