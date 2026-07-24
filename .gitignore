@@ -355,3 +355,5 @@ MigrationBackup/
 
 # ImportBuddy residue
 episodenames.txt
+
+**/**/config.json
